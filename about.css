@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: Arial, sans-serif;
 }
 body {
@@ -10,16 +10,12 @@ body {
 .About-container {
     width: 80%;
     max-width: 1200px;
-    padding: 40px;
     min-height: 450PX;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 20px;
-    background-color: rgb(253, 253, 253);
     gap: 40px;
     margin: 60px auto;
-    box-shadow: 0 10px 25px rgb(0, 0, 0);
 }
 .About-text {
     flex: 1;
@@ -85,7 +81,6 @@ body {
     .About-container {
         flex-direction: column;
         text-align: center;
-        padding: 30px;
     }
 
     .About-text {
@@ -100,7 +95,6 @@ body {
   @media (max-width: 468px) {
     .About-container {
         width: 95%;
-        padding: 20px;
     }
 
     .About-text h1 {
