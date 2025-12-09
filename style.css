@@ -10,15 +10,15 @@
         display: flex;
         justify-content: space-between; 
         align-items: center;
-        background: #fff;
-        column-gap: 5rem;
+        background: white;
         position: fixed;
         top: 0;
         left: 0;
         z-index: 1000;
-        gap: 40px;
+        gap: 30px;
         padding:0 40px ;
-        box-shadow: 0 2px 10px rgb(187, 187, 172);
+        box-shadow: 0 2px 10px rgb(168, 147, 147);
+    
     }
     .logo {
         color: #007bff;
